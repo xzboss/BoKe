@@ -5,7 +5,7 @@ import recoTheme from 'vuepress-theme-reco';
 export default defineUserConfig({
   title: 'vuepress-theme-reco',
   description: 'Just playing around',
-  base: '',
+  dest: './.vuepress/dist/docs',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
     logo: '/logo.png',
