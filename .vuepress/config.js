@@ -1,10 +1,11 @@
 import { defineUserConfig } from 'vuepress';
-import type { DefaultThemeOptions } from 'vuepress';
+// import type { DefaultThemeOptions } from 'vuepress';
 import recoTheme from 'vuepress-theme-reco';
 
 export default defineUserConfig({
   title: 'vuepress-theme-reco',
   description: 'Just playing around',
+  base: '',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
     logo: '/logo.png',
@@ -13,7 +14,6 @@ export default defineUserConfig({
     docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
     docsBranch: 'main',
     docsDir: 'example',
-    base: 'BoKe',
     lastUpdatedText: '',
     // series 为原 sidebar
     series: {
